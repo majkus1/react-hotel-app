@@ -1,0 +1,32 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.menuItem {
+    display: inline-block;
+    margin: 20px;
+    color: white;
+}
+
+.menuItem a {
+    text-decoration: none;
+    color: white;
+}
+
+.menuItem a:hover {
+    color: orange;
+}
+
+.menuContainer {
+    border: 1px solid #cdcdcd;
+    margin-top: 10px;
+    background-color: gray;
+}
+/* 
+.menuItemActive {
+    text-decoration: underline;
+    color: goldenrod;
+} */
